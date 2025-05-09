@@ -1,0 +1,35 @@
+.perfil-contenedor {
+    display: flex;
+    max-width: 1460px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.perfil-texto {
+    max-width: 690px;
+    width: 100%;
+}
+
+.perfil-texto h1 {
+    font-size: 4rem;
+    font-family: "Crimson Pro", serif;
+    font-weight: 400;
+    color: #401202;
+}
+
+.perfil-texto p {
+    font-family: "Inter", serif;
+    color: #401202;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .perfil-contenedor {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+}

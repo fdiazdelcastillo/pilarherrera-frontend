@@ -1,0 +1,71 @@
+.testimonios {
+    background-color: #8C6249;
+    padding: 62px 0;
+}
+
+.titulo-slider {
+    font-weight: normal;
+    font-size: 2.4rem;
+    font-family: "Crimson Pro", Serif;
+    text-align: center;
+    line-height: 2.8rem;
+    color: #fff;
+}
+
+.testimonios-slider {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.testimonios-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonio {
+    flex: 0 0 100%;
+    margin-top: 2rem;
+    color: #fff;
+    padding: 10px;
+}
+
+.testimonio div {
+    padding: 0 40px;
+}
+
+.testimonio-parrafo {
+    font-family: "Inter", Serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.testimonio-autor{
+    margin-top: 20px;
+    text-align: right;
+    font-family: "Crimson Pro", Serif;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}

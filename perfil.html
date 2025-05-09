@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pilar Herrera Pastelería - Home</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/perfil.css"/>
+    <link rel="stylesheet" href="/css/navbar.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<!-- esto es el navbar -->
+<section id="navbar-container">
+    <script src="/js/navbar.js"></script>
+    <script>
+        renderNavBar();
+    </script>
+</section>
+<!-- este es el final del navbar -->
+
+<!--Inicio Perfil-->
+<section class="perfil">
+    <div class="perfil-contenedor">
+        <img src="/assets/imagenes/perfil.jpg" alt="">
+        <div class="perfil-texto">
+            <h1>Pila Herrera</h1>
+            <p>Encontré en la pastelería una forma de compartir amor y alegría. Cada receta que preparo es una mezcla de tradición, inspiración internacional y mucho corazón. Bienvenidos a mi cocina.</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget  libero augue. Suspendisse sed turpis lectus. Integer tempor eros in urna porta aliquam. Integer accumsan laoreet enim in efficitur. Proin  gravida, sapien eu lacinia placerat, libero arcu maximus tortor, id  ultrices quam risus quis nulla. Proin auctor ornare metus. Nullam  molestie arcu pulvinar elit pulvinar, id sollicitudin nisl scelerisque.  Proin justo elit, fermentum quis sem quis, cursus fringilla lectus. In  placerat tortor lorem, a posuere mi venenatis et.
+            </p>
+        </div>
+    </div>
+</section>
+<!--Final Perfil-->
+
+<!-- Inicio footer -->
+<footer id="footer">
+    <div class="footer-contacto">
+        <h1>Contáctame</h1>
+        <a
+                href="https://www.instagram.com/pilarherrerapasteleriagourmet/"
+                target="_blank"
+        >@pilarherrerapasteleriagourmet</a
+        ><br/>
+        <a href="tel: +573225923973">+57 322 592 3973</a>
+        <div class="footer-iconos">
+            <a href="https://wa.me/57322592397" target="_blank"
+            ><img
+                    src="/assets/imagenes/whatsapp-svgrepo-com 1.png"
+                    alt="Logo whatsapp"
+            /></a>
+            <a
+                    href="https://www.instagram.com/pilarherrerapasteleriagourmet/"
+                    target="_blank"
+            ><img
+                    src="/assets/imagenes/instagram-167-svgrepo-com 1.png"
+                    alt="Logo instagram"
+            /></a>
+            <a href="mailto:pily126@gmail.com" target="_blank"
+            ><img
+                    src="/assets/imagenes/mail-alt-3-svgrepo-com 1.png"
+                    alt="Logo email"
+            /></a>
+        </div>
+    </div>
+    <div class="footer-newsletter">
+        <h2>Newsletter</h2>
+        <p>
+            Suscribete y enterate primero de nuestros<br/>sabores de temporada.
+        </p>
+        <form name="newsletter" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="newsletter"/>
+            <input
+                    type="email"
+                    class="input-personalizado"
+                    placeholder="tuemail@email.com"
+                    required
+            />
+            <button type="submit">Envia</button>
+        </form>
+    </div>
+</footer>
+<!-- Fin footer -->
+
+<script src="/js/testimonios.js"></script>
+
+</body>
+</html>
